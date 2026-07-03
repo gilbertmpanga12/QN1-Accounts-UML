@@ -1,18 +1,3 @@
-# QN1 Accounts UML
-
-## Relationships in the UML diagram
-
-1. `Account` implements `Statement`. This is interface implementation / realization.
-2. `SavingsAccount` extends `Account`. This is inheritance / generalization.
-3. `CurrentAccount` extends `Account`. This is inheritance / generalization.
-4. `Customer` has a list of `Account` objects. This is aggregation.
-
-## Multiplicity between Customer and Account
-
-The diagram shows `1` near `Customer` and `0..*` near `Account`.
-
-This means one customer can have zero, one, or many accounts. Each account belongs to one customer in this design.
-
 ## How to test in NetBeans
 
 1. Open NetBeans.
